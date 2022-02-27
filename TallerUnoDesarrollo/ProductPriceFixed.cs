@@ -19,7 +19,7 @@ namespace TallerUnoDesarrollo
 
         public override string ToString()
         {
-            return $"{base.ToString()} Precio Final:   {GetValueToPay()}";
+            return $"{base.ToString()} {GetValueToPay()}";
         }
     }
 }
