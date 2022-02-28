@@ -48,7 +48,7 @@ namespace TallerUnoDesarrollo
 
 
             return $"                    ===================" +
-                $"\n\tTotal              {$"{GetValueToPay():C2}",13}";
+                $"\n\tTotal              {$"{GetValueToPay():C2}",12}";
         }
 
 

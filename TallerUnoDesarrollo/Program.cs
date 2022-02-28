@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 
 Console.WriteLine("Products");
-Console.WriteLine("==============");
+Console.WriteLine("============================================");
 Product product1 = new ProductPriceFixed()
 {
     Description = "Vino Gato Negro",

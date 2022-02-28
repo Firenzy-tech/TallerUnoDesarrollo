@@ -22,7 +22,7 @@ namespace TallerUnoDesarrollo
 
         public override string ToString()
         {
-            return $"{base.ToString()} Venta por {Measurement}\nPrecio Final: {GetValueToPay():C2}";
+            return $"{base.ToString()}     Venta por {Measurement}      {Quantity}\n     Value......: {$"{GetValueToPay():C2}",12}";
         }
 
     }

@@ -19,7 +19,7 @@ namespace TallerUnoDesarrollo
 
         public override string ToString()
         {
-            return $"{base.ToString()} {GetValueToPay()}";
+            return $"{base.ToString()}     Value......: {$"{GetValueToPay():C2}",12}";
         }
     }
 }

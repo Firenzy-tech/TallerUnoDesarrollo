@@ -21,11 +21,13 @@ namespace TallerUnoDesarrollo
 
         public override string ToString()
         {
-            return $"\n\nId: {Id}...... {Description}\n     Price: {Price:C2} Tax: {Tax:P2}    \nPrecio Con impuesto: ";
-            
-               
+            return $"\n\n{Id} {Description}\n     Price......: {$"{Price:C2}",12}\n     Tax........:   { $"{Tax:P2}",12 }\n";
+
+
         }
 
+
+        
     
     }
 }
