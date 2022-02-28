@@ -8,7 +8,7 @@ namespace TallerUnoDesarrollo
 {
     internal class VariablePriceProduct:Product
     {
-        public string Measurement { get; set; }
+        public string? Measurement { get; set; }
         public decimal Quantity { get; set; }
 
         public override decimal GetValueToPay()
@@ -22,7 +22,7 @@ namespace TallerUnoDesarrollo
 
         public override string ToString()
         {
-            return $"{base.ToString()} Medida : {Measurement}  Precio Final: {GetValueToPay()}";
+            return $"{base.ToString()} Venta por {Measurement}\nPrecio Final: {GetValueToPay():C2}";
         }
 
     }

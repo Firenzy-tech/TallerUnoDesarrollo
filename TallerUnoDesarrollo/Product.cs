@@ -8,7 +8,7 @@ namespace TallerUnoDesarrollo
 {
     public abstract class Product
     {
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         public int Id { get; set; }
 
@@ -21,7 +21,7 @@ namespace TallerUnoDesarrollo
 
         public override string ToString()
         {
-            return $"\n\nId: {Id}...... {Description}\n     Price: {Price} Tax: {Tax:P2}    \nPrecio Con impuesto: ";
+            return $"\n\nId: {Id}...... {Description}\n     Price: {Price:C2} Tax: {Tax:P2}    \nPrecio Con impuesto: ";
             
                
         }

@@ -11,7 +11,7 @@ namespace TallerUnoDesarrollo
     {
         public decimal Discount { get; set; }
 
-        public ICollection Products { get; set; }
+        public ICollection? Products { get; set; }
 
 
 
@@ -23,7 +23,7 @@ namespace TallerUnoDesarrollo
                 ListaPrice += productDiscount.Price;
              //   Console.WriteLine(productDiscount.Price);
             }
-            return ListaPrice;
+            return ListaPrice - (ListaPrice * Discount); ;
         }
 
        
@@ -38,7 +38,7 @@ namespace TallerUnoDesarrollo
                 //Console.WriteLine(Composed.Description);
             }
 
-            return $"{base.ToString()} \nProductos ancheta\n{ListaProducts}Total a pagar {GetValueToPay()}";
+            return $"\n{Description} \nId{Id}\nProductos ancheta\n{ListaProducts}Descuento: {Discount:P2} Total a pagar {GetValueToPay():C2}";
         }
     }
 }
