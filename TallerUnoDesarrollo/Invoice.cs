@@ -54,37 +54,6 @@ namespace TallerUnoDesarrollo
 
 
 
-        //String listado = "";
-        //foreach (Product datos in _products)
-        //{
-        //    listado += datos.ToString;
-
-        //}
-        //Console.WriteLine(listado);
-
-        //public product invoice()
-        //{
-        //    return invoice(_products);
-        //}
-
-        //public product invoice(ICollection<Product> _products)
-        //{
-        //    for (int i = 0; i < _products.Count; i++)
-        //    Console.WriteLine(_products[i]);
-
-
-
-        //public static Product Invoice(ICollection<Product> Products)
-
-        //{ return Products[1]; }
-
-        //{
-
-        //    String listado = "";
-        //    foreach (Product datos in _products){
-        //        listado += datos.ToString();
-
-        //    }
 
 
 

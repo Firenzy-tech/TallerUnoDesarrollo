@@ -1,6 +1,4 @@
 ﻿using TallerUnoDesarrollo;
-using System;
-using System.Collections.Generic;
 
 Console.WriteLine("Products");
 Console.WriteLine("============================================");
@@ -10,7 +8,7 @@ Product product1 = new ProductPriceFixed()
     Id = 1010,
     Price = 46000M,
     Tax = 0.19F
- };
+};
 
 Product product2 = new ProductPriceFixed()
 {

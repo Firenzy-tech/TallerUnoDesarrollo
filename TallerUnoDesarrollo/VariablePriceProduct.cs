@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TallerUnoDesarrollo
+﻿namespace TallerUnoDesarrollo
 {
-    internal class VariablePriceProduct:Product
+    internal class VariablePriceProduct : Product
     {
         public string? Measurement { get; set; }
         public decimal Quantity { get; set; }
@@ -15,7 +9,7 @@ namespace TallerUnoDesarrollo
         {
 
             return Quantity * Price;
-           // throw new NotImplementedException();
+
 
         }
 

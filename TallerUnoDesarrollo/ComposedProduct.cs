@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections;
 
 namespace TallerUnoDesarrollo
 {
@@ -17,20 +12,20 @@ namespace TallerUnoDesarrollo
 
         public override decimal GetValueToPay()
         {
-            Decimal ListaPrice=0;
+            Decimal ListaPrice = 0;
             foreach (Product productDiscount in Products)
             {
                 ListaPrice += productDiscount.Price;
-             //   Console.WriteLine(productDiscount.Price);
+                //   Console.WriteLine(productDiscount.Price);
             }
             return ListaPrice - (ListaPrice * Discount); ;
         }
 
-       
+
 
         public override string ToString()
         {
-            
+
             string ListaProducts = "";
             foreach (Product Composed in Products)
             {

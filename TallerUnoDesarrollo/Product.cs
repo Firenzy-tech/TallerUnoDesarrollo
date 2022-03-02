@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TallerUnoDesarrollo
+﻿namespace TallerUnoDesarrollo
 {
     public abstract class Product
     {
@@ -27,7 +21,7 @@ namespace TallerUnoDesarrollo
         }
 
 
-        
-    
+
+
     }
 }
